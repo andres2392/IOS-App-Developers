@@ -11,6 +11,11 @@
 		7E58FC1728B963EC00047CDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58FC1628B963EC00047CDE /* ContentView.swift */; };
 		7E58FC1928B963EE00047CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E58FC1828B963EE00047CDE /* Assets.xcassets */; };
 		7E58FC1C28B963EE00047CDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E58FC1B28B963EE00047CDE /* Preview Assets.xcassets */; };
+		7E58FC2928B9652F00047CDE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58FC2428B9652F00047CDE /* CardView.swift */; };
+		7E58FC2A28B9652F00047CDE /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58FC2528B9652F00047CDE /* CardData.swift */; };
+		7E58FC2B28B9652F00047CDE /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58FC2628B9652F00047CDE /* CardModel.swift */; };
+		7E58FC2E28B9659100047CDE /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58FC2D28B9659100047CDE /* PlaySound.swift */; };
+		7E58FC3028B965A100047CDE /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E58FC2F28B965A100047CDE /* sound-chime.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7E58FC1628B963EC00047CDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E58FC1828B963EE00047CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E58FC1B28B963EE00047CDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E58FC2428B9652F00047CDE /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7E58FC2528B9652F00047CDE /* CardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		7E58FC2628B9652F00047CDE /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		7E58FC2D28B9659100047CDE /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		7E58FC2F28B965A100047CDE /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				7E58FC1428B963EC00047CDE /* DevelopersApp.swift */,
+				7E58FC2528B9652F00047CDE /* CardData.swift */,
+				7E58FC2628B9652F00047CDE /* CardModel.swift */,
+				7E58FC2D28B9659100047CDE /* PlaySound.swift */,
+				7E58FC2428B9652F00047CDE /* CardView.swift */,
 				7E58FC1628B963EC00047CDE /* ContentView.swift */,
 				7E58FC1828B963EE00047CDE /* Assets.xcassets */,
+				7E58FC2F28B965A100047CDE /* sound-chime.mp3 */,
 				7E58FC1A28B963EE00047CDE /* Preview Content */,
 			);
 			path = Developers;
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E58FC1C28B963EE00047CDE /* Preview Assets.xcassets in Resources */,
+				7E58FC3028B965A100047CDE /* sound-chime.mp3 in Resources */,
 				7E58FC1928B963EE00047CDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E58FC2A28B9652F00047CDE /* CardData.swift in Sources */,
+				7E58FC2E28B9659100047CDE /* PlaySound.swift in Sources */,
 				7E58FC1728B963EC00047CDE /* ContentView.swift in Sources */,
 				7E58FC1528B963EC00047CDE /* DevelopersApp.swift in Sources */,
+				7E58FC2928B9652F00047CDE /* CardView.swift in Sources */,
+				7E58FC2B28B9652F00047CDE /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
